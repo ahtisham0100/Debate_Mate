@@ -6,7 +6,7 @@ console.log("Button clicked! Animation started.");
 primaryButton.classList.remove("animate__fadeInLeft")
 setTimeout(() => {
     primaryButton.classList.remove("animate_flash");
-}, 2000);
+}, 200);
 
 
 })
