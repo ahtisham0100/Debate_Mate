@@ -8,5 +8,11 @@ setTimeout(() => {
     primaryButton.classList.remove("animate_flash");
 }, 200);
 
-
+primaryButton.disabled=true;
+primaryButton.classList.add("disabled")
+setTimeout(() => {
+        primaryButton.classList.remove("disabled")
+primaryButton.disabled=false;
+}, 3000);
 })
+
