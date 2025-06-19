@@ -2,6 +2,19 @@ let discussionName;
 const topicContainer =  document.querySelector("#topic")
 const secondContainer = document.querySelector("#secContainer")
 const minContainer = document.querySelector("#minContainer")
+// const addAgument = document.querySelector("#add-Arg");
+
+// // Show the popup
+
+// addAgument.addEventListener("click" , ()=>{
+
+// document.querySelector('.append_argument').style.display = 'block';
+
+// // Hide on close click
+// document.querySelector('.close').addEventListener('click', () => {
+//   document.querySelector('.append_argument').style.display = 'none';
+// });
+// })
 
 import {FetchName} from "./FetchName.mjs";
 import  StopWatch  from "./StopWatch.mjs";
