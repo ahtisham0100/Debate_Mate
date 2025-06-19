@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="loader">
+    <span class="spinner"></span>
+  </div>
+
+  <div class="app-container invisible">
+    <header class="header">
+      <h1>DebateMate</h1>
+      <div class="dark-mode-toggle">
+        <label for="darkToggle">DARK MODE</label>
+        <input type="checkbox" id="darkToggle" />
+      </div>
+    </header>
+
+    <section class="topic-section">
+      <div class="topic-info">
+        <h2>Topic:</h2>
+        <p id="topic">Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="timer"><span id="minContainer"></span>: <span id="secContainer"></span> </div>
+    </section>
+
+    <section class="arguments">
+      <div class="column">
+        <h3>Pro</h3>
+        <button class="argument">Argument</button>
+        <button class="add-argument">Add argument</button>
+        <ul class="argument-list"></ul>
+      </div>
+      <div class="column">
+        <h3>Con</h3>
+        <button class="argument">Argument</button>
+        <button class="add-argument">Add argument</button>
+        <ul class="argument-list"></ul>
+      </div>
+    </section>
+
+    <section class="voting-section">
+      <h3>Voting:</h3>
+      <div class="voting-controls">
+        <div class="arrows">
+          <button class="vote-btn">⬆️</button>
+          <button class="vote-btn">⬇️</button>
+        </div>
+        <button class="vote-small">Vote</button>
+      </div>
+      <button class="vote-main">Vote</button>
+    </section>
+  </div>
+
+  <script type="module" src="js/main.js" ></script>
+</body>
+</html>
+
